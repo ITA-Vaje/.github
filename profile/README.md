@@ -32,14 +32,14 @@ The system is composed of **three core microservices**, each responsible for a s
 - **API**: Exposes a REST API for vehicle-related operations.
 - **Database**: Owns its **own dedicated database**.
 
-### 2. 📅 Reservation Service
+### 2. 📅 Booking Service
 - **Responsibilities**:
-  - Manages the entire reservation lifecycle:
-    - Create and cancel reservations.
+  - Manages the entire booking lifecycle:
+    - Create and cancel bookings.
     - Check vehicle availability for selected dates.
-    - View reservation history.
-- **API**: Exposes a REST API for reservation handling.
-- **Database**: Has its **own reservation-specific database**.
+    - View booking history.
+- **API**: Exposes a REST API for booking handling.
+- **Database**: Has its **own booking-specific database**.
 
 ### 3. 👤 User Service
 - **Responsibilities**:
